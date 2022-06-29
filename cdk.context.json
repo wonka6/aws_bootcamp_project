@@ -1,0 +1,86 @@
+{
+  "infra": {
+    "account": "781026332009",
+    "region": "eu-central-1",
+    "vpcId": "vpc-0fd57d472dd127575",
+    "availabilityZones": [
+      "eu-central-1a",
+      "eu-central-1b"
+    ]
+  },
+  "vpc-provider:account=781026332009:filter.vpc-id=vpc-0a1a0195d44e0ea29:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0a1a0195d44e0ea29",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "web-service-subnet-01",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-02937b8e0bbed4f52",
+            "cidr": "10.0.0.0/20",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0207425d738a4d6ca"
+          },
+          {
+            "subnetId": "subnet-05615da20c50bf08f",
+            "cidr": "10.0.16.0/20",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-095436d8628d6e67c"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=781026332009:filter.vpc-id=vpc-0d38b816477521c67:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0d38b816477521c67",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "web-service-subnet-01",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-00130a9c627a43fd4",
+            "cidr": "10.0.0.0/20",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-015b546c1ad239d50"
+          },
+          {
+            "subnetId": "subnet-05550e19019ca8981",
+            "cidr": "10.0.16.0/20",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-09b86a0914be2a17b"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=781026332009:filter.vpc-id=vpc-0fd57d472dd127575:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0fd57d472dd127575",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "web-service-subnet-01",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0f3bd616eec1b2151",
+            "cidr": "10.0.0.0/20",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0d442ea0e396e95bf"
+          },
+          {
+            "subnetId": "subnet-020ab44b009387eb4",
+            "cidr": "10.0.16.0/20",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0241d2d83a65dbbc0"
+          }
+        ]
+      }
+    ]
+  }
+}
